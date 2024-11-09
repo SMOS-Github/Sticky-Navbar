@@ -1,0 +1,108 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+body{
+    height:100vh;
+    width:100vw;
+    padding-top:0;
+}
+html{
+    font-family:Cera Pro,Verdana, Arial,sans-serif;
+}
+.container{
+    height:100%;
+    width:100%;
+}
+.hero-bar{
+    height:80%;
+    width:100%;
+    background-image:url("bg.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#hero-title {
+    font-size: 5rem;
+    color: white;
+    text-shadow:3px 1px 10px black;
+}
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #0c0d20;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:all 0.2s;
+}
+.update-nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+}
+.nav-links {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    align-items: center;
+    position:relative;
+}
+#home-text {
+    font-size: 2rem;
+    color: black;
+    
+}
+.home-text{
+    background-color:white;
+    height:100%;
+    width:10%;
+    text-align:center;
+    padding-top:30px;
+    position:absolute;
+    top:0;
+    left:-250px;
+    transition:all 0.15s;
+}
+.update-home-text {
+    left:0;
+   
+}
+#nav-texts{
+    font-size:1.5rem;
+    color:white;
+    transition:all 0.1s;
+}
+#nav-texts:hover {
+        color: dodgerblue;
+    }
+.text-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+#random-text {
+    font-size: 1.5rem;
+    padding: 100px;
+    margin:10px 0;
+    height:1000px;
+    width: 80%;
+    border-radius:10px;
+}
+#random-text::-webkit-scrollbar{
+    height:0;
+    width:0;
+}
