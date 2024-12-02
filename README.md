@@ -1,2 +1,1 @@
-# Sticky-Navbar
- Sticky-Navbar
+[OPEN IN BROWSER](https://smos-github.github.io/Sticky-Navbar/)
